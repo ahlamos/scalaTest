@@ -1,0 +1,48 @@
+﻿
+1) Explain REST and RESTful
+
+Rest signifie Representational State Transfer :est un style d'architecture basé sur HTTP qui permet de construire des applications web 
+les ressource REST sont basées sur les URI (Uniform Resource Identifier)  qui caractérise chaque ressource et la manipulation de cette requete par le 
+consommateur peut etre une lecture par GET ou écriture par POST ou modification par PUT ou suppression par DELETE et réponse envoyée peut etre 
+présentée sous le format:JSON,HTML,XML ...
+Restful c'est l'adjectif qui qualifie une architecture de type REST
+  
+2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+
+
+API signifie Application Programming Interface les étapes de la création d'une API sont les suivantes:
+-Création des entités de l'application
+-Création ou génération de la base de donnée
+-Création de la couche Dao ou les entités sont gérés
+-Création de la couche Web :la création des services Rest qui gèrent chaque entité dans chaque service on trouve des méthodes accessibles via des requetes
+HTTP par des annotations qui contiennet la forme de la requete avec l'opération :GET,DELETE,PUT,UPDATE
+ 
+
+3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
+
+
+-GET: c'est une méthode pour demander une ressource
+-POST:c'est une méthode pour transmettre des données vers la ressource indiquée dans la requete 
+-PUT:c'est une méthode qui permet de remplacer la  ressource en question par le contenu de la requete
+-Delete:c'est une méthode qui supprime la ressource indiquée
+
+
+4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+
+Un protocole est stateless est un  protocole qui n'a pas d'état c'est à dire il n'enregistre pas l'état d'une communication:envoie d'une requete et réception d'une
+réponse donc chaque communication est une sessions indépendante Or le protocole stateful enregistre les informations d'une communication sur le serveur
+HTTP est un protocole stateless
+
+
+5) Explain the difference between a GET and a POST (like how are sent the parameters)
+
+
+Les requêtes HTTP POST ajoutent des données  dans le corps du message envoyé à un serveur.Or les requêtes GET mettent toutes les données requises
+dans l’URL.Alors les requtes POST sont plus sécurisées que les requetes GET 
+
+6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+
+Si je rencontre un probleme dans mon code :
+-je relie le code plusieurs fois et je fais un débogage pour savoir la source du probleme:
+-je cherche  sur google (open classroom -stackoverflow pour voir si ce probleme est déja renconté ou pas)
+si ca marche pas je demande l'aide de mes professeurs ou mes collègues. 
